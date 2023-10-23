@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(42, 120, 165);
+}
+
+.container {
+    background-color: rgb(165, 161, 161);
+    border: 2px black solid;
+    margin: 0 auto;
+    width: 25rem;
+    border-radius: 10px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#result {
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 1.2rem;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    background-color: rgb(99, 92, 92);
+    width: 20%;
+    border-radius: 10px;
+    border: hidden;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    font: bold;
+}
+
+.mathSign {
+    background-color: rgb(226, 147, 56);
+}
+
+.clear {
+
+    margin: 1.2rem;
+    text-align: center;
+}
+
+#equals {
+    background-color: rgb(25, 151, 25);
+}
+
+#clear {
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    border: hidden;
+    border-radius: 10px;
+}
